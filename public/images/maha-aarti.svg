@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aartiSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#19060b"/>
+      <stop offset="40%" stop-color="#5a101b"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <radialGradient id="aartiFireGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f97316" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#dc2626" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#5a101b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#aartiSky)"/>
+  
+  <!-- Warm Aarti Flame Glow in Center -->
+  <circle cx="400" cy="300" r="260" fill="url(#aartiFireGlow)"/>
+
+  <!-- Background Bappa Murti Shimmering in Candlelight -->
+  <circle cx="400" cy="180" r="70" fill="#fef08a" opacity="0.4"/>
+  <polygon points="400,60 360,130 440,130" fill="#dfb15b" opacity="0.6"/>
+  <path d="M330,180 C330,300 470,300 470,180 Z" fill="#fef08a" opacity="0.3"/>
+
+  <!-- Multi-tiered Brass Aarti Deepak / Panchaarti Thali in Foreground -->
+  <ellipse cx="400" cy="450" rx="140" ry="25" fill="#aa8033" stroke="#fef08a" stroke-width="3"/>
+  <ellipse cx="400" cy="445" rx="130" ry="20" fill="#dfb15b"/>
+
+  <!-- Middle Tier -->
+  <rect x="385" y="380" width="30" height="70" fill="#aa8033"/>
+  <ellipse cx="400" cy="380" rx="90" ry="16" fill="#aa8033" stroke="#fef08a" stroke-width="2"/>
+  <ellipse cx="400" cy="376" rx="80" ry="12" fill="#dfb15b"/>
+
+  <!-- Top Tier -->
+  <rect x="390" y="320" width="20" height="60" fill="#aa8033"/>
+  <ellipse cx="400" cy="320" rx="50" ry="10" fill="#aa8033" stroke="#fef08a" stroke-width="2"/>
+  <ellipse cx="400" cy="316" rx="42" ry="7" fill="#dfb15b"/>
+
+  <!-- Camphor & Oil Flames (Deep Jyoti) -->
+  <!-- Main Central Top Flame -->
+  <path d="M400,312 Q385,250 400,200 Q415,250 400,312 Z" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M400,308 Q390,260 400,225 Q410,260 400,308 Z" fill="#fef08a"/>
+  <!-- Inner Blue Flame -->
+  <circle cx="400" cy="305" r="5" fill="#38bdf8" opacity="0.8"/>
+
+  <!-- Tier 2 Flames (Left and Right) -->
+  <path d="M340,375 Q330,330 340,300 Q350,330 340,375 Z" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M460,375 Q450,330 460,300 Q470,330 460,375 Z" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Tier 1 Base Flames -->
+  <path d="M290,445 Q280,400 290,370 Q300,400 290,445 Z" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M510,445 Q500,400 510,370 Q520,400 510,445 Z" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Devotees with Folded Hands (Anjali Mudra) in Silhouette at bottom -->
+  <!-- Devotee Left -->
+  <circle cx="150" cy="480" r="22" fill="#180408"/>
+  <path d="M120,530 L180,530 L190,600 L110,600 Z" fill="#180408"/>
+  <!-- Folded hands -->
+  <polygon points="175,510 185,470 195,510" fill="#180408"/>
+
+  <!-- Devotee Right -->
+  <circle cx="650" cy="480" r="22" fill="#180408"/>
+  <path d="M620,530 L680,530 L690,600 L610,600 Z" fill="#180408"/>
+  <!-- Folded hands -->
+  <polygon points="625,510 615,470 605,510" fill="#180408"/>
+
+  <!-- Chanting Devotees Heads along the edge -->
+  <circle cx="70" cy="510" r="18" fill="#180408"/>
+  <circle cx="230" cy="520" r="20" fill="#180408"/>
+  <circle cx="570" cy="520" r="20" fill="#180408"/>
+  <circle cx="730" cy="510" r="18" fill="#180408"/>
+
+  <!-- Divine Sparkles & Floating Incense Smoke -->
+  <path d="M380,260 Q360,200 390,160 Q420,120 400,80" fill="none" stroke="#fff" stroke-width="2" opacity="0.25"/>
+  <path d="M420,270 Q450,210 430,170 Q410,130 430,90" fill="none" stroke="#fff" stroke-width="2" opacity="0.25"/>
+
+  <!-- Banner -->
+  <rect x="230" y="540" width="340" height="36" rx="6" fill="#701722" stroke="#dfb15b" stroke-width="2"/>
+  <text x="400" y="563" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="14" fill="#fef08a" text-anchor="middle">॥ सायंकाळची भव्य मंगल महाआरती ॥</text>
+</svg>

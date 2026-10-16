@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#warmBg)"/>
+
+  <!-- Golden Light Beam -->
+  <polygon points="400,0 200,600 600,600" fill="#fef08a" opacity="0.15"/>
+
+  <!-- Traditional Annachhatra / Prasad Serving Table -->
+  <rect x="120" y="360" width="560" height="200" fill="#fdfbf7" stroke="#aa8033" stroke-width="3" rx="8"/>
+  <rect x="110" y="345" width="580" height="25" fill="#dfb15b" stroke="#78350f" stroke-width="2" rx="4"/>
+
+  <!-- Steaming Brass Handi / Vessel of Mahaprasad (Khichadi / Sheera / Modak) -->
+  <ellipse cx="400" cy="300" rx="90" ry="25" fill="#aa8033" stroke="#fef08a" stroke-width="2"/>
+  <path d="M310,300 C310,380 490,380 490,300 Z" fill="#d97706" stroke="#78350f" stroke-width="2"/>
+  <!-- Steam rising -->
+  <path d="M370,260 Q360,220 380,180" fill="none" stroke="#fff" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+  <path d="M400,250 Q410,210 395,170" fill="none" stroke="#fff" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+  <path d="M430,260 Q440,220 420,180" fill="none" stroke="#fff" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- Traditional Banana Leaf / Drona (Pattal) of Prasad in Foreground -->
+  <!-- Plate 1 -->
+  <ellipse cx="230" cy="420" rx="55" ry="30" fill="#15803d" stroke="#166534" stroke-width="2"/>
+  <!-- Prasad items on leaf: Sheera, Puri, Modak -->
+  <circle cx="230" cy="415" r="14" fill="#fef08a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="210" cy="422" r="10" fill="#f59e0b"/>
+  <circle cx="248" cy="420" r="8" fill="#fff" stroke="#aa8033" stroke-width="1"/>
+
+  <!-- Plate 2 -->
+  <ellipse cx="570" cy="420" rx="55" ry="30" fill="#15803d" stroke="#166534" stroke-width="2"/>
+  <circle cx="570" cy="415" r="14" fill="#fef08a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="550" cy="422" r="10" fill="#f59e0b"/>
+  <circle cx="588" cy="420" r="8" fill="#fff" stroke="#aa8033" stroke-width="1"/>
+
+  <!-- Plate 3 (Center) -->
+  <ellipse cx="400" cy="445" rx="70" ry="38" fill="#15803d" stroke="#166534" stroke-width="2"/>
+  <circle cx="400" cy="440" r="18" fill="#fef08a" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="370" cy="445" r="12" fill="#f59e0b"/>
+  <circle cx="425" cy="445" r="10" fill="#fff" stroke="#aa8033" stroke-width="1"/>
+
+  <!-- Devotees in Respectful Queue with Folded Hands -->
+  <circle cx="160" cy="240" r="20" fill="#fef3c7"/>
+  <path d="M140,265 L180,265 L190,345 L130,345 Z" fill="#701722"/>
+  <polygon points="170,290 180,260 190,290" fill="#fef3c7"/>
+
+  <circle cx="640" cy="240" r="20" fill="#fef3c7"/>
+  <path d="M620,265 L660,265 L670,345 L610,345 Z" fill="#701722"/>
+  <polygon points="630,290 620,260 610,290" fill="#fef3c7"/>
+
+  <!-- Youth Volunteer Serving lovingly -->
+  <circle cx="400" cy="140" r="22" fill="#fef3c7"/>
+  <path d="M375,165 L425,165 L440,260 L360,260 Z" fill="#fff" stroke="#d4af37" stroke-width="1.5"/>
+  <rect x="385" y="180" width="30" height="14" fill="#701722" rx="2"/>
+  <!-- Serving Ladle -->
+  <line x1="415" y1="200" x2="430" y2="280" stroke="#78350f" stroke-width="4"/>
+  <ellipse cx="430" cy="285" rx="14" ry="8" fill="#aa8033"/>
+
+  <!-- Banner -->
+  <rect x="180" y="535" width="440" height="42" rx="8" fill="#701722" stroke="#dfb15b" stroke-width="2"/>
+  <text x="400" y="561" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="15" fill="#fef08a" text-anchor="middle">॥ सत्यनारायण महापूजा निमित्त महाप्रसाद वाटप ॥</text>
+</svg>

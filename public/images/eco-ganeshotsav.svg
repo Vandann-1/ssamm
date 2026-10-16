@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecoBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="natureHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#a7f3d0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#ecoBg)"/>
+  <circle cx="400" cy="270" r="220" fill="url(#natureHalo)"/>
+
+  <!-- Earth / Globe with Maharashtra contour in background -->
+  <circle cx="400" cy="280" r="140" fill="#065f46" stroke="#a7f3d0" stroke-width="2" opacity="0.4"/>
+
+  <!-- Traditional Shadu Mati (Natural Clay) Ganpati Murti -->
+  <!-- Lotus Clay Pedestal -->
+  <path d="M250,480 Q400,430 550,480 L520,520 L280,520 Z" fill="#78350f" stroke="#d97706" stroke-width="2"/>
+  <!-- Pure terracotta natural clay tones -->
+  <circle cx="400" cy="260" r="60" fill="#c2410c"/>
+  <path d="M330,260 C330,420 470,420 470,260 Z" fill="#9a3412"/>
+  <!-- Crown sculpted in earth clay -->
+  <polygon points="400,140 360,210 440,210" fill="#ea580c"/>
+
+  <!-- Sacred Trunk curving -->
+  <path d="M390,270 Q420,330 440,310" fill="none" stroke="#fed7aa" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Green Sacred Peepal / Betel Leaves Arch (Eco Garland) -->
+  <path d="M220,380 Q400,100 580,380" fill="none" stroke="#22c55e" stroke-width="16" stroke-dasharray="14,6"/>
+  <path d="M220,380 Q400,100 580,380" fill="none" stroke="#fef08a" stroke-width="6" stroke-dasharray="6,8"/>
+
+  <!-- Sprouting Tree Sapling on Left (Plantation) -->
+  <path d="M140,500 L140,380" stroke="#78350f" stroke-width="6" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="120" cy="370" rx="25" ry="14" fill="#22c55e" transform="rotate(-30 120 370)"/>
+  <ellipse cx="160" cy="360" rx="25" ry="14" fill="#22c55e" transform="rotate(30 160 360)"/>
+  <ellipse cx="140" cy="340" rx="20" ry="12" fill="#4ade80" transform="rotate(-10 140 340)"/>
+
+  <!-- Artificial Immersion Tank / Kund on Right -->
+  <ellipse cx="660" cy="460" rx="70" ry="30" fill="#0284c7" stroke="#38bdf8" stroke-width="3"/>
+  <ellipse cx="660" cy="450" rx="60" ry="22" fill="#38bdf8"/>
+  <text x="660" y="515" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="11" fill="#ffffff" text-anchor="middle">कृत्रिम तलाव विसर्जन</text>
+
+  <!-- Banner -->
+  <rect x="180" y="535" width="440" height="42" rx="8" fill="#14532d" stroke="#fef08a" stroke-width="2"/>
+  <text x="400" y="561" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="15" fill="#fef08a" text-anchor="middle">॥ शाडू मातीची मूर्ती • पर्यावरणपूरक गणेशोत्सव ॥</text>
+</svg>

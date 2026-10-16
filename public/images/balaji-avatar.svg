@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="balajiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e0b24"/>
+      <stop offset="50%" stop-color="#4a1525"/>
+      <stop offset="100%" stop-color="#19060b"/>
+    </linearGradient>
+    <radialGradient id="divineGlow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#ffeaa7" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d4af37" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4a1525" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pureGold" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#fff8db"/>
+      <stop offset="35%" stop-color="#f59e0b"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#balajiBg)"/>
+
+  <!-- Golden Temple Gopuram / Ananda Nilayam Silhouette in Background -->
+  <polygon points="400,20 440,80 360,80" fill="url(#pureGold)" opacity="0.4"/>
+  <polygon points="400,60 480,140 320,140" fill="url(#pureGold)" opacity="0.25"/>
+  <rect x="300" y="140" width="200" height="460" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.3"/>
+
+  <!-- Divine Aura -->
+  <circle cx="400" cy="240" r="170" fill="url(#divineGlow)"/>
+
+  <!-- Venkateshwara Golden Halo Rings -->
+  <circle cx="400" cy="240" r="150" fill="none" stroke="#fff8db" stroke-width="2" opacity="0.8"/>
+  <circle cx="400" cy="240" r="158" fill="none" stroke="#d4af37" stroke-width="3" stroke-dasharray="10,5" opacity="0.9"/>
+
+  <!-- Golden Pedestal (Simhasana) -->
+  <polygon points="180,580 620,580 570,520 230,520" fill="url(#pureGold)" stroke="#78350f" stroke-width="3"/>
+  <rect x="250" y="530" width="300" height="30" fill="#32070c" rx="4" stroke="#d4af37" stroke-width="1.5"/>
+  <text x="400" y="551" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="14" fill="#fff8db" text-anchor="middle" letter-spacing="2">श्री बालाजी अवतार गणेश दर्शन • २०१५ - २०२४</text>
+
+  <!-- Divine Murti Body -->
+  <!-- Dhoti in Gold & Silk -->
+  <path d="M260,510 C280,450 340,435 400,445 C460,435 520,450 540,510 Z" fill="url(#pureGold)" stroke="#78350f" stroke-width="2"/>
+
+  <!-- Torso & Belly -->
+  <path d="M315,360 C315,455 485,455 485,360 C485,320 315,320 315,360 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="2"/>
+
+  <!-- Balaji Kaustubha Mani & Golden Chest Ornaments -->
+  <polygon points="400,345 425,375 400,405 375,375" fill="url(#pureGold)" stroke="#b91c1c" stroke-width="2"/>
+  <circle cx="400" cy="375" r="7" fill="#b91c1c"/>
+  <!-- Golden Necklaces (Harams) -->
+  <path d="M340,320 Q400,420 460,320" fill="none" stroke="url(#pureGold)" stroke-width="8" stroke-dasharray="6,4"/>
+  <path d="M350,335 Q400,440 450,335" fill="none" stroke="#d4af37" stroke-width="4"/>
+
+  <!-- Four Arms of Balaji-Ganesha -->
+  <!-- Upper Left Hand: Shankha (Conch) -->
+  <path d="M485,330 C530,300 550,250 540,210" fill="none" stroke="#fdfaf3" stroke-width="18" stroke-linecap="round"/>
+  <!-- Shankha -->
+  <g transform="translate(540,195) rotate(-20)">
+    <path d="M0,0 C15,-10 30,-5 35,10 C40,25 25,35 10,35 C-5,35 -15,20 0,0 Z" fill="#ffffff" stroke="#d4af37" stroke-width="2"/>
+    <path d="M5,10 Q18,12 25,25" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+  </g>
+
+  <!-- Upper Right Hand: Sudarshana Chakra (Discus) -->
+  <path d="M315,330 C270,300 250,250 260,210" fill="none" stroke="#fdfaf3" stroke-width="18" stroke-linecap="round"/>
+  <!-- Sudarshana Chakra with radiant flames -->
+  <g transform="translate(255,200)">
+    <circle cx="0" cy="0" r="22" fill="url(#pureGold)" stroke="#fff8db" stroke-width="2"/>
+    <circle cx="0" cy="0" r="14" fill="#32070c"/>
+    <circle cx="0" cy="0" r="6" fill="#f59e0b"/>
+    <!-- Flames/Spokes -->
+    <line x1="0" y1="-26" x2="0" y2="26" stroke="#fff8db" stroke-width="2"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke="#fff8db" stroke-width="2"/>
+    <line x1="-18" y1="-18" x2="18" y2="18" stroke="#fff8db" stroke-width="1.5"/>
+    <line x1="18" y1="-18" x2="-18" y2="18" stroke="#fff8db" stroke-width="1.5"/>
+  </g>
+
+  <!-- Lower Right Hand: Abhaya / Varada Blessing -->
+  <path d="M290,360 C270,340 280,310 295,310 C310,310 320,335 325,370 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="285" cy="330" r="4" fill="#b91c1c"/>
+
+  <!-- Lower Left Hand: Holding Sacred Golden Modak -->
+  <path d="M510,360 C530,340 520,310 505,310 C490,310 480,335 475,370 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="510" cy="330" r="9" fill="url(#pureGold)" stroke="#78350f" stroke-width="1"/>
+
+  <!-- Ears with Kundalas (Earrings) -->
+  <path d="M325,230 C235,200 230,300 320,290 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="2"/>
+  <!-- Gold Kundala Left -->
+  <circle cx="280" cy="270" r="8" fill="url(#pureGold)" stroke="#92400e" stroke-width="1"/>
+
+  <path d="M475,230 C565,200 570,300 480,290 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="2"/>
+  <!-- Gold Kundala Right -->
+  <circle cx="520" cy="270" r="8" fill="url(#pureGold)" stroke="#92400e" stroke-width="1"/>
+
+  <!-- Head / Forehead -->
+  <path d="M330,230 C330,170 470,170 470,230 C470,270 330,270 330,230 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="2"/>
+
+  <!-- Sacred Tirupati Balaji Namam (Urdhva Pundra) -->
+  <!-- Broad White Namam covering forehead -->
+  <path d="M380,180 L388,230 L412,230 L420,180 L408,180 L400,215 L392,180 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Central Kasturi Red Tilak (Srichurna) -->
+  <rect x="397" y="185" width="6" height="42" fill="#dc2626" rx="2"/>
+
+  <!-- Auspicious Eyes -->
+  <path d="M352,225 Q366,220 378,228" fill="none" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M448,225 Q434,220 422,228" fill="none" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Elephant Trunk (Sond) adorned in Balaji jewels -->
+  <path d="M385,250 C385,295 415,320 425,345 C435,370 460,365 460,350 C460,340 445,340 440,325 C430,305 415,285 415,250 Z" fill="#fdfaf3" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="445" cy="345" r="4" fill="url(#pureGold)"/>
+
+  <!-- Towering Venkateshwara Golden Kireetam (Crown) -->
+  <path d="M340,185 L350,75 L400,45 L450,75 L460,185 Z" fill="url(#pureGold)" stroke="#78350f" stroke-width="2"/>
+  <!-- Intricate Crown Layers & Jewels -->
+  <line x1="345" y1="150" x2="455" y2="150" stroke="#78350f" stroke-width="2"/>
+  <line x1="350" y1="115" x2="450" y2="115" stroke="#78350f" stroke-width="2"/>
+  <circle cx="400" cy="40" r="7" fill="#fff8db" stroke="#92400e" stroke-width="1.5"/>
+  <circle cx="400" cy="95" r="6" fill="#b91c1c"/>
+  <circle cx="375" cy="130" r="5" fill="#047857"/>
+  <circle cx="425" cy="130" r="5" fill="#047857"/>
+
+  <!-- Fresh Marigold & Tulsi Garlands -->
+  <path d="M320,290 Q400,470 480,290" fill="none" stroke="#f59e0b" stroke-width="18" stroke-dasharray="14,4"/>
+  <path d="M320,290 Q400,470 480,290" fill="none" stroke="#047857" stroke-width="8" stroke-dasharray="8,8"/>
+
+  <!-- Badge Top -->
+  <rect x="250" y="16" width="300" height="30" rx="15" fill="#4a1525" stroke="#d4af37" stroke-width="1.5"/>
+  <text x="400" y="36" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="13" fill="#ffeaa7" text-anchor="middle">॥ ॐ श्री वेंकटेशाय नमः • ॐ गं गणपतये नमः ॥</text>
+</svg>

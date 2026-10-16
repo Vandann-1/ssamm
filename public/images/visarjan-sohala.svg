@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunset" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="35%" stop-color="#9f1239"/>
+      <stop offset="65%" stop-color="#ea580c"/>
+      <stop offset="85%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="40%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sunset Sky -->
+  <rect width="800" height="420" fill="url(#sunset)"/>
+
+  <!-- Water Surface (Immersion Lake / Sea) -->
+  <rect y="420" width="800" height="180" fill="url(#water)"/>
+  <!-- Water Ripples -->
+  <path d="M0,430 Q200,420 400,430 Q600,440 800,430" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.6"/>
+  <path d="M0,460 Q200,450 400,460 Q600,470 800,460" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,500 Q200,490 400,500 Q600,510 800,500" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Setting Sun on Horizon -->
+  <circle cx="400" cy="380" r="80" fill="#fef08a" opacity="0.9"/>
+
+  <!-- Immersion Boat / Floating Platform with Bappa -->
+  <path d="M260,420 L540,420 L500,460 L300,460 Z" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Golden Garland on boat -->
+  <path d="M270,425 Q400,455 530,425" fill="none" stroke="#f59e0b" stroke-width="6" stroke-dasharray="8,4"/>
+
+  <!-- Sacred Murti Silhouette in Immersion Rite -->
+  <circle cx="400" cy="310" r="45" fill="#fef08a"/>
+  <polygon points="400,220 370,280 430,280" fill="#f59e0b"/>
+  <path d="M350,310 C350,410 450,410 450,310 Z" fill="#fef08a"/>
+  <!-- Saffron scarf drape -->
+  <path d="M350,330 Q400,370 450,330" fill="none" stroke="#ea580c" stroke-width="10"/>
+
+  <!-- Floating Deepaks / Oil Lamps on Sacred Waters -->
+  <circle cx="210" cy="450" r="10" fill="#f59e0b"/>
+  <circle cx="210" cy="450" r="4" fill="#fff"/>
+  <circle cx="580" cy="460" r="10" fill="#f59e0b"/>
+  <circle cx="580" cy="460" r="4" fill="#fff"/>
+  <circle cx="360" cy="480" r="8" fill="#f59e0b"/>
+  <circle cx="360" cy="480" r="3" fill="#fff"/>
+
+  <!-- Pink & Saffron Gulal Cloud in Air -->
+  <ellipse cx="280" cy="240" rx="90" ry="40" fill="#f43f5e" opacity="0.4"/>
+  <ellipse cx="520" cy="230" rx="80" ry="35" fill="#f97316" opacity="0.4"/>
+
+  <!-- Devotees on Shores with Raised Hands and Jari Pataka -->
+  <!-- Left Shore Devotees -->
+  <path d="M0,370 L180,390 L180,440 L0,440 Z" fill="#1e1b4b"/>
+  <circle cx="50" cy="350" r="14" fill="#0f172a"/>
+  <circle cx="90" cy="345" r="15" fill="#0f172a"/>
+  <circle cx="130" cy="355" r="14" fill="#0f172a"/>
+  <!-- Raised arms -->
+  <line x1="90" y1="345" x2="105" y2="305" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="130" y1="355" x2="145" y2="315" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Right Shore Devotees -->
+  <path d="M620,390 L800,370 L800,440 L620,440 Z" fill="#1e1b4b"/>
+  <circle cx="670" cy="355" r="14" fill="#0f172a"/>
+  <circle cx="710" cy="345" r="15" fill="#0f172a"/>
+  <circle cx="750" cy="350" r="14" fill="#0f172a"/>
+  <line x1="710" y1="345" x2="695" y2="305" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Grand Farewell Banner / Chants -->
+  <rect x="180" y="535" width="440" height="42" rx="8" fill="#701722" stroke="#dfb15b" stroke-width="2"/>
+  <text x="400" y="561" font-family="'Noto Sans Devanagari', sans-serif" font-weight="bold" font-size="16" fill="#fef08a" text-anchor="middle">गणपती बाप्पा मोरया, पुढच्या वर्षी लवकर या!</text>
+</svg>
