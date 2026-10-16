@@ -5,6 +5,7 @@ import { LanguageProvider } from '@/context/LanguageContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnnouncementBanner from '@/components/AnnouncementBanner';
+import StructuredData from '@/components/StructuredData';
 
 const devanagariFont = Noto_Sans_Devanagari({
   subsets: ['devanagari', 'latin'],
@@ -23,51 +24,87 @@ const montserratFont = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://saiashishmitramandal.org'),
   title: {
-    default: 'श्री साई आशिष मित्र मंडळ | Shree Sai Ashish Mitra Mandal - Bhayandar (E)',
+    default: 'श्री साई आशिष मित्र मंडळ | Shree Sai Ashish Mitra Mandal - Bhayandar (East)',
     template: '%s | श्री साई आशिष मित्र मंडळ',
   },
   description:
-    'अधिकृत संकेतस्थळ: श्री साई आशिष मित्र मंडळ, सार्वजनिक गणेशोत्सव, भाईंदर (पूर्व), ठाणे. स्थापना २०१५. थेट दर्शन, फोटो गॅलरी, व सामाजिक कार्य.',
+    'अधिकृत संकेतस्थळ: श्री साई आशिष मित्र मंडळ, सार्वजनिक गणेशोत्सव, भाईंदर (पूर्व), ठाणे - ४०११०५. स्थापना २०१५ (सन २०२५ - १५ वे वर्ष). अध्यक्ष: सचिन मांजरेकर. थेट दर्शन, फोटो गॅलरी, व अधिकृत माहिती.',
   keywords: [
     'Shree Sai Ashish Mitra Mandal',
     'श्री साई आशिष मित्र मंडळ',
+    'Sai Ashish Mitra Mandal',
     'Sai Ashish Mitra Mandal Bhayandar',
+    'सचिन मांजरेकर',
+    'Sachin Manjrekar',
+    '7977867266',
+    'saiashishmitramandal@gmail.com',
     'नर्मदा नगरचा श्री',
+    'Narmada Nagar Ganpati',
+    'Bhayandar East Ganpati Mandal',
     'Ganeshotsav Bhayandar',
-    'Ganpati Darshan',
-    'Balaji Avatar Ganpati',
-    'Mumbai Ganpati Mandal',
-    'Sarvajanik Ganeshotsav',
+    'Sarvajanik Ganeshotsav 2025',
+    'Mira Bhayandar Ganpati Darshan',
+    'Thane Ganpati Mandal',
+    'Balaji Avatar Ganpati Bhayandar',
   ],
   authors: [{ name: 'Shree Sai Ashish Mitra Mandal' }],
   creator: 'Shree Sai Ashish Mitra Mandal',
   publisher: 'Shree Sai Ashish Mitra Mandal',
+  alternates: {
+    canonical: 'https://saiashishmitramandal.org',
+    languages: {
+      'mr-IN': 'https://saiashishmitramandal.org',
+      'en-US': 'https://saiashishmitramandal.org',
+      'hi-IN': 'https://saiashishmitramandal.org',
+    },
+  },
   openGraph: {
     title: 'श्री साई आशिष मित्र मंडळ | Shree Sai Ashish Mitra Mandal',
     description:
-      'सार्वजनिक गणेशोत्सव • स्थापना २०१५ • भाईंदर (पूर्व), ठाणे. दर्शन घ्या, व उत्सव छायाचित्रे अनुभवा.',
+      'सार्वजनिक गणेशोत्सव • स्थापना २०१५ (१५ वे वर्ष) • भाईंदर (पूर्व), ठाणे. अध्यक्ष: सचिन मांजरेकर. थेट दर्शन, छायाचित्रे व उत्सव माहिती.',
     url: 'https://saiashishmitramandal.org',
     siteName: 'श्री साई आशिष मित्र मंडळ',
     images: [
       {
-        url: '/images/murti-main.svg',
-        width: 1200,
-        height: 630,
+        url: '/images/official-banner.jpg',
+        width: 1024,
+        height: 405,
+        alt: 'श्री साई आशिष मित्र मंडळ - अधिकृत बॅनर',
+      },
+      {
+        url: '/images/murti-main.jpg',
+        width: 800,
+        height: 600,
         alt: 'श्री साई आशिष मित्र मंडळ - गणेश मूर्ती दर्शन',
       },
     ],
     locale: 'mr_IN',
+    alternateLocale: ['hi_IN', 'en_US'],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'श्री साई आशिष मित्र मंडळ | Shree Sai Ashish Mitra Mandal',
-    description: 'सार्वजनिक गणेशोत्सव • स्थापना २०१५ • भाईंदर (पूर्व). मंगल दर्शन व माहिती.',
-    images: ['/images/murti-main.svg'],
+    description:
+      'सार्वजनिक गणेशोत्सव • स्थापना २०१५ • भाईंदर (पूर्व), ठाणे. अध्यक्ष: सचिन मांजरेकर. संपर्क: 7977867266.',
+    images: ['/images/official-banner.jpg'],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'IN-MH',
+    'geo.placename': 'Bhayandar East, Thane, Maharashtra',
+    'geo.position': '19.2945;72.8580',
+    'ICBM': '19.2945, 72.8580',
   },
 };
 
@@ -76,37 +113,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'HinduTemple',
-    name: 'Shree Sai Ashish Mitra Mandal',
-    alternateName: 'श्री साई आशिष मित्र मंडळ',
-    description:
-      'Sarvajanik Ganeshotsav Mandal in Bhayandar East, Thane, established in 2015 by local youth volunteers.',
-    url: 'https://saiashishmitramandal.org',
-    foundingDate: '2015',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Bhayandar (East), Mira-Bhayandar',
-      addressRegion: 'Thane, Maharashtra',
-      postalCode: '401105',
-      addressCountry: 'IN',
-    },
-    sameAs: ['https://www.instagram.com/saiashishmitramandal/'],
-  };
-
   return (
     <html
       lang="mr"
       className={`${devanagariFont.variable} ${montserratFont.variable} h-full scroll-smooth`}
     >
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <StructuredData />
       </head>
-      <body className="min-h-full flex flex-col bg-mandap-pattern text-charcoal-800 antialiased selection:bg-gold-500 selection:text-white">
+      <body className="min-h-full flex flex-col bg-white text-slate-900 antialiased selection:bg-[#900002] selection:text-white">
         <LanguageProvider>
           <AnnouncementBanner />
           <Header />
